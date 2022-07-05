@@ -3,3 +3,5 @@ show_downloads: false
 title: Thomas G. Stewart, PhD
 description: <b>Data Science Institute<br>Vanderbilt University</b><br><br>
 encoding: UTF-8
+
+theme: jekyll-theme-minimal
