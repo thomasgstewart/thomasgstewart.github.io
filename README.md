@@ -1,5 +1,5 @@
 # Thomas G. Stewart, PhD
-*Data scientist, Biostatistician, Clinical Trialist*
+*Data scientist, Biostatistician, Clinical trialist*
 
 ## Courses
 ### Probability and Inference
