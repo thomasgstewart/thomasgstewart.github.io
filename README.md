@@ -2,7 +2,7 @@ I am a statistician because I enjoy tackling the questions of data-driven health
 
 # Courses
 
-* UVA DS XXXX - Probability and Inference, 2022 [link to current course](https://thomasgstewart.github.io/theory-1-fall-2022/)
+* UVA DS XXXX - Probability and Stochastic Processes, 2022 [link to current course](https://thomasgstewart.github.io/theory-1-fall-2022/)
 * UVA DS XXXX - Machine Learning I, 2022 [link to current course](https://thomasgstewart.github.io/machine-learning-1-fall-2022/)
 * VU DS 5620 - Probability and Inference, 2019 - 2021
 * VU MSCI 5015 - Biostatistics II, 2016 - 2022
