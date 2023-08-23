@@ -2,7 +2,7 @@ I am a statistician because I enjoy tackling the questions of data-driven health
 
 # Courses
 
-* UVA DS 2006 - Computational Probability, 2023 [link to current course](https://https://uvads.github.io/DS-2006/)
+* UVA DS 2006 - Computational Probability, 2023 [link to current course](https://uvads.github.io/DS-2006/)
 * UVA DS 6400 - Machine Learning I, 2022 - 2023 [link to current course](https://thomasgstewart.github.io/machine-learning-1-fall-2023/)
 * UVA DS 6300 - Probability and Stochastic Processes, 2022 
 * VU DS 5620 - Probability and Inference, 2019 - 2021
