@@ -14,6 +14,7 @@ would be placed on the function of parameters.) For example, consider
 the simplest setting where the treatment effect is a difference in
 means. The model (which includes the expression for the conditional
 variance) is
+
 $$
 \begin{aligned}
 \text{trt} &= \left\\\begin{array}{ll}
@@ -36,6 +37,7 @@ define a conclusive or reportable difference. In the setting of our
 difference in means example, the Bayesian decision making quantity can
 be the posterior probability of efficacy,
 posterior *P*(*β*<sub>1</sub>&gt;0). The rule could be
+
 $$
 \widehat{\text{posterior } P(\beta\_1&gt;0)} \begin{array}{ll}&lt; 0.95 & \text{Not a conclusive difference}\\
 \geq 0.95 & \text{Conclusive difference}
