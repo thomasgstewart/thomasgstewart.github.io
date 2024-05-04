@@ -10,6 +10,10 @@ I am a statistician because I enjoy tackling the questions of data-driven health
 * VU PUBH 5502 - Biostatistics I, 2018 - 2019
 * UNC BIOS 600 - Principles of Statistical Inference, 2011
 
+# Posts
+
+* [Simultaneous parameter search and simulation](./posts/simulation-search.html)
+
 # Conference sessions, Seminars, Workshops, JIT instruction
 
 * [Invited session, 2019] Stewart TG and Spratt H. Biostatistics and Data Science: Identifying Their Complementary Roles in Clinical and Translational Research. Translational Science, Washington DC.
