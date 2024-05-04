@@ -14,7 +14,7 @@ $$
 1 & \text{active intervention}\\
 0 & \text{placebo}\\
 \end{array}\right. \\
-E[y|\text{trt}] &= \beta_0 + beta_1 \text{trt}\\
+E[y|\text{trt}] &= \beta_0 + \beta_1 \text{trt}\\
 V[y|\text{trt}] &= \sigma^2\\
 \beta_0 &\sim N(0,\theta_{\beta_0})\\
 \beta_1 &\sim N(0,\theta_{\beta_1})\\
@@ -24,10 +24,9 @@ $$
 
 The parameter $\theta_{\beta_1}$ can be selected/calibrated so that the trial has a type I error rate of 5%.
 
-Type I error is inherently linked to the decision-making strategy for the trial.  The decision-making strategy is a rule or set of rules which define a conclusive or reportable difference.  In the setting of our difference in means example, the Bayesian decision making quantity can be the posterior probability of efficacy,  $\text{posterior } P(\beta_1>0)$.  The rule could be
+Type I error is inherently linked to the decision-making strategy for the trial.  The decision-making strategy is a rule or set of rules which define a conclusive or reportable difference.  In the setting of our difference in means example, the Bayesian decision making quantity can be the posterior probability of efficacy,  $P(\beta_1>0|y, \text{trt})$.  For example, the rule might be
 
-$$
-\widehat{\text{posterior } P(\beta_1>0)} \begin{array}{ll}< 0.95 & \text{Not a conclusive difference}\\
-\geq 0.95 & \text{Conclusive difference}
-\end{array}
-$$
+| $P(\beta_1>0|y, \text{trt})$ | Decision |
+|:---:|:---| 
+| $\geq 0.95$ | Conclusive difference |
+| $< 0.95$ | Not a conclusive difference |

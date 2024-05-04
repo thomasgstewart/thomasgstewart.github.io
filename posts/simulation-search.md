@@ -21,7 +21,7 @@ $$
 1 & \text{active intervention}\\
 0 & \text{placebo}\\
 \end{array}\right. \\
-E\[y|\text{trt}\] &= \beta\_0 + beta\_1 \text{trt}\\
+E\[y|\text{trt}\] &= \beta\_0 + \beta\_1 \text{trt}\\
 V\[y|\text{trt}\] &= \sigma^2\\
 \beta\_0 &\sim N(0,\theta\_{\beta\_0})\\
 \beta\_1 &\sim N(0,\theta\_{\beta\_1})\\
@@ -37,10 +37,26 @@ the trial. The decision-making strategy is a rule or set of rules which
 define a conclusive or reportable difference. In the setting of our
 difference in means example, the Bayesian decision making quantity can
 be the posterior probability of efficacy,
-posterior *P*(*β*<sub>1</sub>&gt;0). The rule could be
+*P*(*β*<sub>1</sub>&gt;0|*y*,trt). For example, the rule might be
 
-$$
-\widehat{\text{posterior } P(\beta\_1&gt;0)} \begin{array}{ll}&lt; 0.95 & \text{Not a conclusive difference}\\
-\geq 0.95 & \text{Conclusive difference}
-\end{array}
-$$
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><span
+class="math inline"><em>P</em>(<em>β</em><sub>1</sub>&gt;0|<em>y</em>,trt)</span></th>
+<th style="text-align: left;">Decision</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><span
+class="math inline"> ≥ 0.95</span></td>
+<td style="text-align: left;">Conclusive difference</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><span
+class="math inline"> &lt; 0.95</span></td>
+<td style="text-align: left;">Not a conclusive difference</td>
+</tr>
+</tbody>
+</table>
