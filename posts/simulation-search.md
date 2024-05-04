@@ -21,6 +21,7 @@ $$
 1 & \text{active intervention}\\
 0 & \text{placebo}\\
 \end{array}\right. \\
+\ \\
 E\[y|\text{trt}\] &= \beta\_0 + \beta\_1 \text{trt}\\
 V\[y|\text{trt}\] &= \sigma^2\\
 \beta\_0 &\sim N(0,\theta\_{\beta\_0})\\
