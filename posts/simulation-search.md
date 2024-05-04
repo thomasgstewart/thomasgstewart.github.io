@@ -20,9 +20,11 @@ $$
 \text{trt} &= \begin{cases} 
 1 & \text{active intervention}\\
 0 & \text{placebo}
-\end{cases}
+\end{cases}\\
+\\\\
 E\[y|\text{trt}\] &= \beta\_0 + \beta\_1 \text{trt}\\
 V\[y|\text{trt}\] &= \sigma^2\\
+\\\\
 \beta\_0 &\sim N(0,\theta\_{\beta\_0})\\
 \beta\_1 &\sim N(0,\theta\_{\beta\_1})\\
 \sigma &\sim \text{exponential}(\theta\_{\sigma}).
