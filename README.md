@@ -12,7 +12,7 @@ I am a statistician because I enjoy tackling the questions of data-driven health
 
 # Posts
 
-* [Simultaneous parameter search and simulation](./posts/simulation-search.html)
+* [Simultaneous parameter search and simulation](posts/simulation-search.html)
 
 # Conference sessions, Seminars, Workshops, JIT instruction
 
