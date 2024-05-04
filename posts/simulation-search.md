@@ -16,12 +16,12 @@ means. The model (which includes the expression for the conditional
 variance) is
 
 $$
-\begin{align*}
+\begin{aligned}
 \text{trt} &= \left\{ \begin{array}{ll}
 1 & \text{active intervention}\\
 0 & \text{placebo}\\
 \end{array}\right. \\
-\end{align*}
+\end{aligned}
 $$
 
 The parameter *θ*<sub>*β*<sub>1</sub></sub> can be selected/calibrated
