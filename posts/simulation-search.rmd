@@ -19,6 +19,7 @@ V[y|\text{trt}] &= \sigma^2\\
 \beta_0 &\sim N(0,\theta_{\beta_0})\\
 \beta_1 &\sim N(0,\theta_{\beta_1})\\
 \sigma &\sim \text{exponential}(\theta_{\sigma}).
+\end{aligned}
 $$
 
 The parameter $\theta_{\beta_1}$ can be selected/calibrated so that the trial has a type I error rate of 5%.

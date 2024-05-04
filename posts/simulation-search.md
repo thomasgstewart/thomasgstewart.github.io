@@ -26,6 +26,7 @@ V\[y|\text{trt}\] &= \sigma^2\\
 \beta\_0 &\sim N(0,\theta\_{\beta\_0})\\
 \beta\_1 &\sim N(0,\theta\_{\beta\_1})\\
 \sigma &\sim \text{exponential}(\theta\_{\sigma}).
+\end{aligned}
 $$
 
 The parameter *θ*<sub>*β*<sub>1</sub></sub> can be selected/calibrated
