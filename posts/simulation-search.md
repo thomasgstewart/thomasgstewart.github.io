@@ -17,7 +17,7 @@ variance) is
 
 $$
 \begin{aligned}
-\text{trt} &= \left\\ \begin{array}{ll}
+\text{trt} &= \left\{ \begin{array}{ll}
 1 & \text{active intervention}\\
 0 & \text{placebo}\\
 \end{array}\right. \\
