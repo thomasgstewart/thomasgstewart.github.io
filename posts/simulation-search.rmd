@@ -10,10 +10,15 @@ One approach for calibrating a Bayesian design to have type I error control is v
 
 $$
 \begin{aligned}
-\text{trt} &= \left\{ \begin{array}{ll}
+\text{trt} &= \begin{cases} 
 1 & \text{active intervention}\\
-0 & \text{placebo}\\
-\end{array}\right. \\
+0 & \text{placebo}
+\end{cases}
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
 E[y|\text{trt}] &= \beta_0 + \beta_1 \text{trt}\\
 V[y|\text{trt}] &= \sigma^2\\
 \beta_0 &\sim N(0,\theta_{\beta_0})\\
